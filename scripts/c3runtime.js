@@ -4698,6 +4698,7 @@ self.C3_JsPropNameTable = [
 	{Sine: 0},
 	{Sprite: 0},
 	{Touch: 0},
+	{PoundSign: 0},
 	{InvoicesCreated: 0},
 	{InvoicesCollected: 0},
 	{NumberOfWinstons: 0}
@@ -4719,7 +4720,8 @@ self.InstanceType = {
 	Browser: class extends self.IInstance {},
 	background: class extends self.ISpriteInstance {},
 	Sprite: class extends self.ISpriteInstance {},
-	Touch: class extends self.IInstance {}
+	Touch: class extends self.IInstance {},
+	PoundSign: class extends self.ITextInstance {}
 }
 }
 
